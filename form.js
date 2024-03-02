@@ -1,12 +1,10 @@
 let button = document.getElementById("button");
 let tg = window.Telegram.WevApp;
 
-tg.expand();
-
 button.addEventListener("click", () => {
-    let value = document.getElementById("inp").value;
+    let value = document.getElementById("test").value;
     if (value) {
-        tg.sendData(value);
+        tg.sendData('test_data');
         tg.close();
     }
 })
