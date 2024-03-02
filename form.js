@@ -1,5 +1,5 @@
 let button = document.getElementById("button");
-let tg = window.Telegram.WevApp;
+let tg = window.Telegram.WebApp;
 
 button.addEventListener("click", () => {
     let value = document.getElementById("test").value;
